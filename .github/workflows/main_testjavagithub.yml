@@ -29,6 +29,3 @@ jobs:
         app-name: testjavagithub
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_21E3E485B72E451BA7B4AFDBEDCDDAC4 }}
         package: target/helloworld.war
-    - name: Azure CLI logout
-      run: |
-        az logout
